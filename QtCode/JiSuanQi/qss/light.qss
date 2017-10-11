@@ -1,0 +1,57 @@
+#SimpleEdit {
+    font-size: 25px;
+    color: #000000;
+    border: 1px solid #EAEAEA;
+    background: #EFEFEF;
+}
+
+#ScEdit {
+    font-size: 18px;
+    color: #000000;
+    border: 1px solid #D8D8D8;
+    background: #D8D8D8;
+}
+
+QPlainTextEdit {
+    background: #EAEAEA;
+    color: #4F4D4D;
+}
+
+#StateLabel {
+    background: #8A8A8A;
+    color: #FFFFFF;
+    border: 1px solid #828282;
+}
+
+#TextButton {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+}
+#TextButton:hover {
+    background: #D8D8D8;
+    border: 1px solid #D8D8D8;
+}
+#TextButton:pressed {
+    background: #ADADAD;
+    border: 1px solid #ADADAD;
+}
+
+#TextButtonIs {
+    border: 1px solid #2CA7F8;
+    background: #2CA7F8;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+#TextButtonIs:hover {
+    background: #42B4FF;
+    color: #FFFFFF;
+}
+
+#TextButtonIs:pressed {
+    background: #0092F2;
+    color: #FFFFFF;
+}

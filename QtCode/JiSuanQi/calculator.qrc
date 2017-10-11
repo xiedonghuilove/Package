@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/icon.svg</file>
+        <file>qss/dark.qss</file>
+        <file>qss/light.qss</file>
+        <file>image/bg_mainjpt.png</file>
+        <file>image/sys_button_close.png</file>
+        <file>image/sys_button_min.png</file>
+        <file>image/sys_button_max.png</file>
+    </qresource>
+</RCC>

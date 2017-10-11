@@ -1,0 +1,62 @@
+#SimpleEdit {
+    font-size: 28px;
+    color: #FFFFFF;
+    background: #252525;
+    border: none;
+    border-style: none;
+}
+
+#ScEdit {
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 1px solid #2B2B2B;
+    background: #2B2B2B;
+}
+
+QPlainTextEdit {
+    background: #252525;
+    border: 0px solid #252525;
+    color: #CCCCCC;
+}
+QPlainTextEdit QScrollBar::vertical {
+        background: #252525;
+        border: 0px;
+        width: 15px;
+}
+
+#StateLabel {
+    background: #4A4A4A;
+    color: #CCCCCC;
+    border: 1px solid #2D2D2D;
+}
+
+#TextButton {
+    font-size: 15px;
+    background: #333333;
+    border: 1px solid #2D2D2D;
+    color: #CCCCCC;
+}
+#TextButton:hover {
+    background: #414141;
+    border: 1px solid #414141;
+}
+#TextButton:pressed {
+    background: #252525;
+    border: 1px solid #414141;
+}
+
+#TextButtonIs {
+    font-size: 15px;
+    border: 1px solid #2CA7F8;
+    background: #2CA7F8;
+    color: #FFFFFF;
+}
+#TextButtonIs:hover {
+    background: #42B4FF;
+    color: #FFFFFF;
+}
+
+#TextButtonIs:pressed {
+    background: #0092F2;
+    color: #FFFFFF;
+}
