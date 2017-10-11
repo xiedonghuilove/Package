@@ -1,0 +1,24 @@
+1. 首先在Github上先创建一个repository
+	仓库名称随便起 Package
+	
+2. 然后在本地新建一个文件夹（Package），用来当做这个远程的仓库，名称和 Github上的仓库名称一致。
+
+3. 打开 Git Bash软件 
+	执行命令 :
+	cd d:/Package
+	git init
+	git config  user.name "xiedonghuilove"
+	git config  user.email "873939316@qq.com"
+	vim README.md
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/xiedonghuilove/Package.git
+	git push -u origin master
+	
+	以上便是先提交一个README文件。重新加载Github仓库便可以看到提交的内容了。
+	
+	接下来如果要提交其他文件只需要进入该目录下，
+	执行： 
+	git commit bsp_drive/   -m "提交底层驱动文件"
+	git push origin master
+	输入账户 xiedonghuilove  密码 xiedonghui246   即可..
