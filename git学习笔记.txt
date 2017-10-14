@@ -21,4 +21,4 @@
 	执行： 
 	git commit bsp_drive/   -m "提交底层驱动文件"
 	git push origin master
-	输入账户 xiedonghuilove  密码 xiedonghui246   即可..
+	输入账户 xiedonghuilove  密码 xiedonghui2*6   即可..
