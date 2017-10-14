@@ -1,0 +1,131 @@
+/*标题栏、中间部分以及底部样式设置*/
+QWidget#widget_Top{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #184CA5, stop:1 #39AAD8);
+}
+QStackedWidget{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #4B87AF, stop:1 #88C7D7);
+}
+/*
+QstackedWIdget 包含 Widget_Mid所以2者的颜色要设置一样。*/
+
+QWidget#widget_Mid{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #4B87AF, stop:1 #88C7D7);
+}
+QWidget#widget_Bottom{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #4B769F, stop:1 #2D5188);
+}
+
+/*设置时间显示样式---首页*/
+QWidget#widget_data{
+        border:2px groove gray ;/*设置边框为2个像素,显示槽状，灰色*/
+        border-radius:12px;/*边框圆角，4个角的像素都为12*/
+        padding:2px 4px;/*填充*/
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #FFFFFF, stop:1 #226FC0);
+                        /*widget_data的背景为渐变颜色，方向是从下到上stop:0 (0开始这个点)的颜色#446E9A,stop 1 的颜色#226FC0*/
+}
+/*年月日和星期显示的样式颜色---#FFFFFF*/
+QLabel#label_data,QLabel#label_week{
+        color:#FF0000
+}
+/*时分显示样式*/
+QLabel#label_hour,QLabel#label_min{
+        border: 2px;
+        border-radius:4px;
+        padding:2px 4px;
+        color:rgb(251,253,252);/*color 属性：部件的前景色用于绘制上面的文本 既QLabel文本上显示的颜色*/
+        font-size:50px;
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #3F4F61, stop:1 #6887A8);
+}
+/*秒显示样式*/
+QLabel#label_sec{
+        color:rgb(255,0,0);
+}
+
+/*设置界面样式*/
+QWidget#widget_set_bottom{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #7E97B0, stop:1 #2D5188);
+}
+QWidget#widget_Mid{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #4B87AF, stop:1 #88C7D7);
+}
+QToolButton#tbnMenuClose{
+        border-image:url(:/images/close.png);
+}
+QToolButton#tbnMenuClose:hover{
+        background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(238, 0, 0, 128), stop:1 rgba(238, 44, 44, 255));
+}
+
+/* "设置"  "主页"   两个ToolButton 样式*/
+QToolButton#tbnSetting{
+        border: 0px;
+}
+QToolButton#tbnSetting:hover{
+        background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #FF0000);
+}
+QToolButton#tbnHome{
+        border: 0px;
+}
+QToolButton#tbnHome:hover{
+        background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(25, 134, 199, 0), stop:1 #FF0000);
+}
+
+
+/*灯光模块界面样式"左床头灯"    "右床头灯" 承接那个箱子的界面*/
+QWidget#widget_light_mid,QWidget#widget_light_bottom,QWidget#widget_light_top{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #3C6B9C, stop:1 #1E4E80);
+}
+
+/*卧室界面样式  --- 左边为灯光界面，右边为温度界面*/
+QWidget#widget_right{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #204D7C, stop:1 #204D7C);
+}
+QWidget#widget_left{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #2C5E93, stop:1 #193E6E);
+}
+
+/*客厅界面样式*/
+QWidget#widget_right{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #204D7C, stop:1 #204D7C);
+}
+QWidget#widget_right_main{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #2C5E93, stop:1 #193E6E);
+}
+QWidget#widget_temp{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #204D7C, stop:1 #204D7C);
+}
+
+
+/*窗帘界面样式*/
+QWidget#widget_curtain_close,QWidget#widget_curtain_open,QWidget#widget_curtain_stop,QWidget#Curtain_stas_widget{
+        border:2px;
+        border-radius:12px;
+        padding:2px 4px;
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #2B5B8C, stop:1 #2C5E93);
+}
+
+
+/*音乐播放控制界面样式*/
+QWidget#widget_music_list,QWidget#widget_music_control{
+        border:2px;
+        border-radius:10px;
+        padding:2px 4px;
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #1D497C, stop:1 #6D9BD1);
+}
+QListWidget#listWidget_music{
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #70C2EA, stop:1 #B4E1F7);
+}
+
+/*模式选择控制界面*/
+QWidget#widget_model_widget_up,QWidget#widget_model_widget_down{
+        border:2px;
+        border-radius:10px;
+        padding:2px 4px;
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #3C6B9C, stop:1 #1E4E80);
+}
+QLabel#label_text{
+        border:2px;
+        border-radius:10px;
+        padding:2px 4px;
+        background: qlineargradient(spread:padding-bottom, x1:0, y1:0, x2:0, y2:1, stop:0 #3C6B9C, stop:1 #1E4E80);
+}
+
