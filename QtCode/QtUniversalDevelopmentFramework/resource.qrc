@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bg_mainjpt.png</file>
+        <file>image/360bg.png</file>
+        <file>image/jpticowubeiji.png</file>
+        <file>image/sys_button_close1.png</file>
+        <file>image/sys_button_max.png</file>
+        <file>image/sys_button_min1.png</file>
+        <file>image/360Buttonbg/1.png</file>
+        <file>image/360Buttonbg/2.png</file>
+        <file>image/360Buttonbg/3.png</file>
+        <file>image/360Buttonbg/4.png</file>
+        <file>image/360Buttonbg/5.png</file>
+        <file>image/360Buttonbg/6.png</file>
+        <file>image/360Buttonbg/7.png</file>
+        <file>image/360Buttonbg/8.png</file>
+        <file>image/360Buttonbg/9.png</file>
+    </qresource>
+</RCC>
