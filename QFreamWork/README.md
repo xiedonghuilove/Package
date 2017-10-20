@@ -1,7 +1,7 @@
-## QFreamWok ÎÄ¼þÊÇÒ»Ì×Í¨ÓÃµÄQt³ÌÐò¿ª·¢¿ò¼Ü£¬²ÉÓÃC++±àÐ´£¬Ê¹ÓÃÊ±Ö±½ÓÌí¼Ó½øÏîÄ¿ÎÄ¼þÖÐ¡£
-* ### (1).QMeterÀàÎªÆû³µÒÇÆ÷ÒÇ±íÀà
+## QFreamWok æ–‡ä»¶æ˜¯ä¸€å¥—é€šç”¨çš„Qtç¨‹åºå¼€å‘æ¡†æž¶ï¼Œé‡‡ç”¨C++ç¼–å†™ï¼Œä½¿ç”¨æ—¶ç›´æŽ¥æ·»åŠ è¿›é¡¹ç›®æ–‡ä»¶ä¸­ã€‚
+* ### (1).QMeterç±»ä¸ºæ±½è½¦ä»ªå™¨ä»ªè¡¨ç±»
     ![github](README_Image/1.png)
-    * Ê¹ÓÃ·½Ê½£º
+    * ä½¿ç”¨æ–¹å¼ï¼š
     ```c++
     QMeter *m_pMeter = new QMeter(this);
     m_pMeter->setGeometry(0,0,434,282);
@@ -14,24 +14,22 @@
 
     connect(m_pSlider1,SIGNAL(sliderMoved(int)),m_pMeter1,SLOT(setValue(int)));
     ```
-* ### (2).SwicthButtonÎª¿ª¹ØÇÐ»»×´Ì¬Àà
+* ### (2).SwicthButtonä¸ºå¼€å…³åˆ‡æ¢çŠ¶æ€ç±»
     ![github](README_Image/2.png)
     ![github](README_Image/3.png)  
-    * Ê¹ÓÃ·½Ê½£º
+    * ä½¿ç”¨æ–¹å¼ï¼š
     ```c++
     m_RedSwitchbtn = new SwitchButton(m_pPlot);
     m_RedSwitchbtn->setImage(":/image/btncheckoff7.png",":/image/btncheckon7.png");
     m_RedSwitchbtn->move(510,220);
     m_RedSwitchbtn->setButtonStyle(SwitchButton::ButtonStyle_Image);
     ```
-* ### (3). AnimationButton Îª¶¯»­°´Å¥Àà
+* ### (3). AnimationButton ä¸ºåŠ¨ç”»æŒ‰é’®ç±»
 <br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/animationbutton.gif)
-    * Ê¹ÓÃ·½Ê½£º
-    ```C++
-    AnimationButton *animationbutton = new AnimationButton(this);
-
-    animationbutton->setText("Ö÷Ò³");
+ Â   <br>* ä½¿ç”¨æ–¹å¼ï¼š
+   ```c++
+   	 AnimationButton *animationbutton = new AnimationButton(this);
+   	 animationbutton->setText("ä¸»é¡µ");
 	animationbutton->setImage(":/image/v-home-ico-home.png");
-
-    connect(animationbutton,SIGNAL(clicked()),this,SLOT(slot_switchbutton()));
+    	connect(animationbutton,SIGNAL(clicked()),this,SLOT(slot_switchbutton()));
     ```
