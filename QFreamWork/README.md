@@ -24,3 +24,14 @@
     m_RedSwitchbtn->move(510,220);
     m_RedSwitchbtn->setButtonStyle(SwitchButton::ButtonStyle_Image);
     ```
+* ### (3). AnimationButton 为动画按钮类
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/animationbutton.gif)
+    * 使用方式：
+    ```C++
+    AnimationButton *animationbutton = new AnimationButton(this);
+
+    animationbutton->setText("主页");
+	animationbutton->setImage(":/image/v-home-ico-home.png");
+
+    connect(animationbutton,SIGNAL(clicked()),this,SLOT(slot_switchbutton()));
+    ```
