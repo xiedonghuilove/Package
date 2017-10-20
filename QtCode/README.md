@@ -1,31 +1,31 @@
-## ²ÉÓÃQt±àĞ´µÄÒ»Ğ©Àı³Ì
-### 1¡¢JiSuanQi ¼òµ¥µÄ¼ÆËãÆ÷Àı³Ì
-* ²Ëµ¥°´Å¥¿ÉÒÔÇĞ»»Ö÷ÌâºÍ¼ÆËã»úÄ£Ê½¡£
-* ¼ÆËãÆ÷¼ÆËãÒÔºóÊı¾İ»á±£´æÔÚÒ»¸ö±¾µØµÄÎÄ¼şÖĞ£¬ÏÂ´ÎÆô¶¯Ê±×Ô¶¯¼ÓÔØ¡£
+## é‡‡ç”¨Qtç¼–å†™çš„ä¸€äº›ä¾‹ç¨‹
+### 1ã€JiSuanQi ç®€å•çš„è®¡ç®—å™¨ä¾‹ç¨‹
+* èœå•æŒ‰é’®å¯ä»¥åˆ‡æ¢ä¸»é¢˜å’Œè®¡ç®—æœºæ¨¡å¼ã€‚
+* è®¡ç®—å™¨è®¡ç®—ä»¥åæ•°æ®ä¼šä¿å­˜åœ¨ä¸€ä¸ªæœ¬åœ°çš„æ–‡ä»¶ä¸­ï¼Œä¸‹æ¬¡å¯åŠ¨æ—¶è‡ªåŠ¨åŠ è½½ã€‚
 
-<br>ÈçÍ¼ËùÊ¾£º
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/4.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/5.png)
+<br>å¦‚å›¾æ‰€ç¤ºï¼š
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/4.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/5.png)
 
-### 2¡¢smartHome ÎªÖÇÄÜ¼Ò¾Ó½çÃæ
-ÑİÊ¾ÈçÏÂ£º
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/7.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/8.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/9.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/10.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/11.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/12.png)
-¾ßÌå¿É²Î¿¼±¾ÈË²©ÎÄ£º
-http://blog.csdn.net/qq_33559992/article/details/52366844
+### 2ã€smartHome ä¸ºæ™ºèƒ½å®¶å±…ç•Œé¢
+æ¼”ç¤ºå¦‚ä¸‹ï¼š
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/7.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/8.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/9.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/10.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/11.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/12.png)
+<br>å…·ä½“å¯å‚è€ƒæœ¬äººåšæ–‡ï¼š
+<br>http://blog.csdn.net/qq_33559992/article/details/52366844
 
-### 3¡¢QtUniversalDevelopmentFramework ÎªQt¿ª·¢½çÃæ³ÌĞòµÄÒ»¸öÍ¨ÓÃÄ£°å
-#### * Ö÷ÒªÊµÏÖ½çÃæµÄÇĞ»»
-#### * ÎŞ±ß´°ÌåµÄÒÆ¶¯
-×¢£º ¸ÃÍ¨ÓÃÄ£°åÖ÷ÒªÊÇÄ£·Â360½çÃæ½øĞĞ±àĞ´µÄ£¬Ê¹ÓÃµÄÊ±ºòÖ±½ÓÏÂÔØÏÂÀ´Ìí¼Ó±àĞ´ÏàÓ¦µÄ½çÃæ¼´¿É
-<br>Ö÷Òª
-¿ÉÒÔ²Î¿¼ÒÔÏÂ²©ÎÄ£º
-[ÎÄÒÕITÄĞ](http://www.cnblogs.com/appsucc/archive/2012/03/14/2395657.html)
+### 3ã€QtUniversalDevelopmentFramework ä¸ºQtå¼€å‘ç•Œé¢ç¨‹åºçš„ä¸€ä¸ªé€šç”¨æ¨¡æ¿
+#### * ä¸»è¦å®ç°ç•Œé¢çš„åˆ‡æ¢
+#### * æ— è¾¹çª—ä½“çš„ç§»åŠ¨
+æ³¨ï¼š è¯¥é€šç”¨æ¨¡æ¿ä¸»è¦æ˜¯æ¨¡ä»¿360ç•Œé¢è¿›è¡Œç¼–å†™çš„ï¼Œä½¿ç”¨çš„æ—¶å€™ç›´æ¥ä¸‹è½½ä¸‹æ¥æ·»åŠ ç¼–å†™ç›¸åº”çš„ç•Œé¢å³å¯
+<br>ä¸»è¦
+å¯ä»¥å‚è€ƒä»¥ä¸‹åšæ–‡ï¼š
+<br>[æ–‡è‰ºITç”·](http://www.cnblogs.com/appsucc/archive/2012/03/14/2395657.html)
 
-ÑİÊ¾½çÃæÈçÏÂ:
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/123.png)
-![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/456.png)
+æ¼”ç¤ºç•Œé¢å¦‚ä¸‹:
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/123.png)
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/456.png)
