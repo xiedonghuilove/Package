@@ -27,7 +27,7 @@
 * ### (3). AnimationButton 为动画按钮类
 <br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/README_Image/animationbutton.gif)
     <br>* 使用方式：
-    ```C++
+    ```c++
     AnimationButton *animationbutton = new AnimationButton(this);
 
     animationbutton->setText("主页");
