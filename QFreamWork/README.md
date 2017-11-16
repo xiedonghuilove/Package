@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 ## QFreamWok 文件是一套通用的Qt程序开发框架，采用C++编写，使用时直接添加进项目文件中。
 * ### (1).QMeter类为汽车仪器仪表类
@@ -36,5 +35,4 @@
     	connect(animationbutton,SIGNAL(clicked()),this,SLOT(slot_switchbutton()));
     ```
 * ### (4). 添加uidemo18 刘大师通用导航界面
-![github](uidemo18/snap.gif)
->>>>>>> 7faa439898d5521d1e3e672327272dc8b8619e2d
+<br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/uidemo18/snap.gif)
