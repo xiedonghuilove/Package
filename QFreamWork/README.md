@@ -33,3 +33,6 @@
 	animationbutton->setImage(":/image/v-home-ico-home.png");
     	connect(animationbutton,SIGNAL(clicked()),this,SLOT(slot_switchbutton()));
     ```
+* ### (4). 添加uidemo18 刘大师通用导航界面
+<br>![](https://github.com/xiedonghuilove/Package/raw/master//QFreamWork/uidemo18/snap.gif)
+    <br>*
