@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmLEDAPI</class>
+ <widget class="QWidget" name="frmLEDAPI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" colspan="10">
+    <widget class="QLabel" name="labImage">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="txtWidth">
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>500</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="text">
+      <string>中华人民共和国</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QFontComboBox" name="fontComboBox">
+     <property name="maximumSize">
+      <size>
+       <width>120</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="7">
+    <widget class="QLabel" name="lanFontSize">
+     <property name="text">
+      <string>字号</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="9">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>生成</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="labWidth">
+     <property name="text">
+      <string>宽度</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QLabel" name="labFontName">
+     <property name="text">
+      <string>字体</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="labHeight">
+     <property name="text">
+      <string>高度</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="10">
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item row="0" column="8">
+    <widget class="QComboBox" name="cboxFontSize"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLineEdit" name="txtHeight">
+     <property name="maximumSize">
+      <size>
+       <width>50</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>95</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

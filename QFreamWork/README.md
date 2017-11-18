@@ -36,3 +36,10 @@
     ```
 * ### (4). 添加uidemo18 刘大师通用导航界面
 <br>![](https://github.com/xiedonghuilove/Package/raw/master/QFreamWork/uidemo18/snap.gif)
+
+* ### (5).添加刘大师的功能01_API.主要实现，
+    * 日志输出，
+    * 无边窗体移动，
+    * 屏幕截图，
+    * 校时等等。。
+<br/>![01_api](README_Image/Qt截图功能.gif)
