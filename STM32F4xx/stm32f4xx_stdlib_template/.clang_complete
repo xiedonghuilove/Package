@@ -1,0 +1,12 @@
+-I.
+-ILibraries/CMSIS/Include
+-ILibraries/CMSIS/Device/ST/STM32F4xx/Include
+-ILibraries/STM32F4xx_StdPeriph_Driver/inc
+
+-IThirdParty/FreeRTOS/Include
+
+-IUSER
+-IUser/inc
+
+-DUSE_STDPERIPH_DRIVER
+-DSTM32F429_439xx

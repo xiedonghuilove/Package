@@ -1,0 +1,77 @@
+/*****************************************************************
+*
+*         JPT连续光控制板-GPIO引脚分配表
+*
+*****************************************************************/
+【按GPIO次序排列, 一共176个GPIO】
+PA0-WKUP                                        预留
+PA1                                             预留
+PA2<>USART2_TX                                  串口2发送
+PA3<>USART2_RX                                  串口2接受
+PA4<>                                           TLV5620_ID_1——数据位
+PA5<>                                           PD_BACK 回光电压检测
+PA6<>                                           预留
+PA7<>                                           RED LASER ON   红光开关
+PA8<>                                           OUT2
+PA9<>                                           OUT3
+PA10<>                                          OUT4
+PA11<>                                          IN1
+PA12<>                                          IN2
+PA13<>JTMS-SWDIO                                JTIO    SWD调试接口数据线
+PA14<>JTCK-SWCLK                                JTCLK   SWD调试接口时钟线
+PA15<>                                          预留
+
+PB0<>ADC12_IN8                                  PD_F_AN2  前向光电压采集
+PB1<>ADC12_IN9                                  V_IORDER_IN32 功率电压采集
+PB2-BOOT1                                       接地
+PB3<>                                           预留
+PB4<>                                           预留
+PB5<>                                           预留
+PB6<>I2C1_SCL                                   PCF_SCL   PCF8563时钟线
+PB7<>I2C1_SDA                                   PCF_SDA   PCF8563数据线
+PB8<>                                           Buzzer    蜂鸣器
+PB9<>                                           预留
+PB10<>                                          Warning   报警输出
+PB11                                            预留
+PB12<>SPI2_NSS                                  SD_CS     SD卡片选
+PB13<>SPI2_SCK                                  SD_CLK    SD卡SPI驱动时钟线
+PB14<>SPI2_MISO/                                SD_MISO   SD卡SPI驱动MISO
+PB15<>SPI2_MOSI/                                SD_MOSI   SD卡SPI驱动MOSI
+
+PC0                                             预留
+PC1                                             预留
+PC2                                             预留
+PC3                                             预留
+PC4/ADC12_IN14                                  PD BACK_AN  回光电压采集
+PC5/ADC12_IN15                                  PD_F_AN     前向光1电压采集
+PC6                                             ERR         报警灯
+PC7                                             RUN         运行灯
+PC8                                             READY       继电器导通控制
+PC9                                             OUT1
+PC10                                            预留
+PC11                                            预留
+PC12                                            预留
+PC13                                            SHT10 DATA2  温湿度SHT10_ID2——数据线
+PC14-OSC32_IN                                   32768Hz时钟输入
+PC15-OSC32_OUT                                  32768Hz时钟输出
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PH10<>TIM5_CH1TIM5_ETR/DCMI_D1                                                                  AD_DAT    AD7942数据线
