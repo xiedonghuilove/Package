@@ -22,3 +22,6 @@
 	git commit bsp_drive/   -m "提交底层驱动文件"
 	git push origin master
 	输入账户 xiedonghuilove  密码 xiedonghui2*6   即可..
+	
+4. 禁用自动转换，即将设置：git config --global core.autocrlf false
+
